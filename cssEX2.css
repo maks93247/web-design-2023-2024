@@ -9,8 +9,8 @@ body {
     grid-template-rows: auto;
     grid-template-areas: 
         "header header header" 
-        "nav nav nav"
-        "main main aside"
+        "nav main main"
+        "nav main main"
         "footer footer footer" 
     ;
 }
@@ -27,17 +27,13 @@ nav {
     grid-area: nav;
     background-color: yellow;
     padding: 1em;
-    text-align: center;
-    margin: auto;
+    
    
 }
 li {
-    float: left;
     display: block;
-    width: 437px;
     padding: 1em;
-    text-align: center;
-    margin: auto;
+    
 
 
 }

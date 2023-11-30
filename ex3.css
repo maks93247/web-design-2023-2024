@@ -8,12 +8,11 @@ body {
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: auto;
     grid-template-areas: 
-         "header" "header" "header" 
-        "nav" "main" "section"
-        "nav" "main" "section"
-        "footer" "footer" "footer" 
+        "header header header" 
+        "nav main aside"
+        "nav main aside"
+        "footer footer footer" 
     ;
-    
 }
 
 header {
@@ -21,7 +20,7 @@ header {
     background-color: blue;
     padding: 10px;
     display: block;
-    width: 20%;
+    
 }
 
 nav {
@@ -29,22 +28,22 @@ nav {
     background-color: yellow;
     float: right;
     display: block;
-    width: 20%;
+   
 }
 
-content {
+main {
     grid-area: main;
     font-family: 'WebFont', Arial, sans-serif; 
     background-color: darkblue;
     display: block;
-    width: 20%;
+    
 }
 
-section{ 
+aside{ 
     background-color: lightgreen;
-    grid-area: section;
+    grid-area: aside;
     display: block;
-    width: 20%;
+   
 }
 
 footer {
@@ -52,5 +51,4 @@ footer {
     min-height: auto;
     background-color: green;
     display: block;
-    width: 20%;
 }

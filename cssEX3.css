@@ -9,8 +9,8 @@ body {
     grid-template-rows: auto;
     grid-template-areas: 
         "header header header" 
-        "nav main aside"
-        "nav main aside"
+        "nav nav nav"
+        "main main aside"
         "footer footer footer" 
     ;
 }
@@ -18,7 +18,7 @@ body {
 header {
     grid-area: header;
     background-color: blue;
-    padding: 10px;
+    padding: 1em;
     display: block;
     
 }
@@ -26,12 +26,21 @@ header {
 nav {
     grid-area: nav;
     background-color: yellow;
-    float: right;
-    display: block;
     padding: 1em;
+    text-align: center;
+    margin: auto;
    
 }
+li {
+    float: left;
+    display: block;
+    width: 437px;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
 
+
+}
 main {
     grid-area: main;
     font-family: 'WebFont', Arial, sans-serif; 

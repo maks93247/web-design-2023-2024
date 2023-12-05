@@ -28,11 +28,13 @@ nav {
     background-color: yellow;
     padding: 1em;
     
+    
    
 }
 li {
-    display: block;
-    padding: 1em;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
     
 
 

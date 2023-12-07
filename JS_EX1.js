@@ -20,6 +20,10 @@ element.addEventListener('click', myClickFunction);
 
 }
 
+function changeBackground(color) {
+    document.body.style.background = color;
+}
+
 
 
 document.addEventListener('DOMContentLoaded', myLoadFunction);

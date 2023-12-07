@@ -24,6 +24,6 @@ function changeBackground(color) {
     document.body.style.background = color;
 }
 
-
+// the function above changes the backround colour.
 
 document.addEventListener('DOMContentLoaded', myLoadFunction);

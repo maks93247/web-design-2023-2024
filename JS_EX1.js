@@ -14,19 +14,12 @@ function myClickFunction1() {
 
 function myLoadFunction() {
 
-var element = document.getElementById('heading');
+var element = document.getElementById('paragraph');
 element.addEventListener('click', myClickFunction);
 
 
 }
 
-function myLoadFunction1() {
-
-var element = document.getElementById('paragraph');
-element.addEventListener('click', myClickFunction1);
-    
-    
-}
 
 
-document.addEventListener('DOMContentLoaded', myLoadFunction, myLoadFunction1);
+document.addEventListener('DOMContentLoaded', myLoadFunction);
